@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ImageView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#2F9B7C</item>
+    </style>
+
+    <style name="Theme.ImageView" parent="Base.Theme.ImageView" />
+
+    <style name="loginPage" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:statusBarColor">#6CB86A</item>
+    <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+
+    <style name="allActivities" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#fff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">#000</item>
+
+
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

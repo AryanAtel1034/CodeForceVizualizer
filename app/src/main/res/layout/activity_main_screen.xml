@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:orientation="vertical"
+        tools:context=".MainScreen">
+
+        <FrameLayout
+            android:id="@+id/frameContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?android:attr/actionBarSize">
+
+        </FrameLayout>
+
+
+        <com.github.kwasow.bottomnavigationcircles.BottomNavigationCircles
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start|bottom"
+            app:backgroundShape="circle"
+            app:customBackgroundShape="@drawable/circle"
+            app:itemActiveIndicatorStyle="@android:color/transparent"
+            app:itemIconSize="28dp"
+            app:itemPaddingBottom="13dp"
+            app:itemRippleColor="@null"
+            app:menu="@menu/navigationmenu"
+          android:background="#FFF"/>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/userHome"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/userStats"
+        android:title="Stats"
+        android:icon="@drawable/stats"/>
+    <item
+        android:id="@+id/userRecent"
+        android:title="Recent"
+        android:icon="@drawable/recent"/>
+    <item
+        android:id="@+id/userUpcommingCompetition"
+        android:title="Contests"
+        android:icon="@drawable/code"/>
+</menu>
